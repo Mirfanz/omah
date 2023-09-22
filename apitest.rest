@@ -2,5 +2,21 @@
 GET http://localhost:3000/api/device/devi003
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJJcmZhbiJ9LCJpYXQiOjE2OTU0MDYzMzB9.TZd2TtqZmOHR1m-JIm3qxAuGtVjSrmJjV6c4UoxWUeQ
 
-###
-POST http://localhost:3000/api/auth
+### Login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"irfan",
+    "password":"irfan123"
+}
+
+### Register
+POST http://localhost:3000/api/auth/register
+Content-Type: application/application/json
+
+{
+    "username":"irfan",
+    "password":"irfan123",
+    "name":"Muhammad Irfan"
+}
