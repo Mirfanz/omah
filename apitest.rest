@@ -1,3 +1,6 @@
 ###
 GET http://localhost:3000/api/device/devi003
-Authorization: Bearer dsjfkdksdsjfdsj
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJJcmZhbiJ9LCJpYXQiOjE2OTU0MDYzMzB9.TZd2TtqZmOHR1m-JIm3qxAuGtVjSrmJjV6c4UoxWUeQ
+
+###
+POST http://localhost:3000/api/auth
